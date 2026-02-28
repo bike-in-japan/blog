@@ -8,6 +8,12 @@ on:
       - .gitignore
       - README.md
       - LICENSE
+  workflow_run:
+    workflows:
+      - create-post-from-issue
+      - process-new-location
+    types:
+      - completed
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
