@@ -1,6 +1,9 @@
 ---
 title: "Fahrt am Morgen"
 date: 2026-02-05 16:43:13 +0000
+categories: [Tour]
+tags: [fahrrad, gpx, karte]
+published: false
 ---
 
 Es geht aber auch Nachmittag
