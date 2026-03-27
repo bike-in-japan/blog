@@ -11,7 +11,7 @@ Gehostet ist das bei Github und dort wird es auch gleich gebaut über *actions*.
 
 Alle Texte liegen als menschenlesbare Dateien vor ([markdown](https://de.wikipedia.org/wiki/Markdown)) und ich habe die volle Kontrolle darüber. Zwar werden sie bei Github, das Microsoft gehört, gelagert, aber ich habe immer Kopien lokal über die Versionskontrolle mit *Git*.
 
-[hier ist z.B. die *Rohversion* dieses Textes](https://github.com/Kugeleis/jekyll-chirpy/blob/main/_posts/2026-02-03-die-technik-hinter-diesem-blog.md)
+[hier ist z.B. die *Rohversion* dieses Textes](https://github.com/bike-in-japan/blog/blob/main/_posts/2026-02-03-die-technik-hinter-diesem-blog.md)
 
 ---
 Glossar:
