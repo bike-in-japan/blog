@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: bikeer-in-japan
+  name: biker in Japan
   email: 271463707+bike-in-japan@users.noreply.github.com 
   links:
     # The first element serves as the copyright owner's link
@@ -43,6 +43,7 @@ social:
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
+    - https://www.polarsteps.com/bikeinjapan/24685604-japan
 
 # Site Verification Settings
 webmaster_verifications:
