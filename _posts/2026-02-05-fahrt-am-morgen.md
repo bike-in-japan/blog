@@ -1,7 +1,7 @@
 ---
 title: "Fahrt am Morgen"
 date: 2026-02-05 16:43:13 +0000
-categories: [Tour]
+categories: [Reisebericht]
 tags: [fahrrad, gpx, karte]
 published: false
 ---

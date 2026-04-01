@@ -1,8 +1,8 @@
 ---
 title: "Hallo Welt: Ein Blog ist geboren."
 date: 2026-01-31
-categories: [news]
-tags: [hello, world]
+categories: []
+tags: []
 ---
 
 ## Hallo Welt

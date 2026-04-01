@@ -1,6 +1,8 @@
 ---
 title: "Die Vorbereitungen laufen"
 date: 2026-03-21 15:25:06 +0000
+categories: [Technik]
+tags: [ausrüstung]
 ---
 
 ![Image](https://github.com/user-attachments/assets/3454dc00-9927-41c7-8261-a7777dd4f963)

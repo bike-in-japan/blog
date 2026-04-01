@@ -1,6 +1,8 @@
 ---
 title: "Frontverlauf"
 date: 2026-03-30 09:36:24 +0000
+categories: [Geografie]
+tags: [kirschblüte, wetter]
 ---
 
 Nein, nicht das was du denkst. Hier geht es ganz im Gegensatz zu anderen Gegenden um den Verlauf der Blütenfront. Weltweit bekannt ist ja die Kirschblüte Japans. Die ist gerade im Gange und ein wichtiges, hochoffizielles Ereignis. Und alles Wichtige wird hier bis ins Kleinste überwacht und verwaltet.
