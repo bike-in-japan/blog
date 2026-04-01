@@ -1,0 +1,15 @@
+---
+title: "Routenplanung"
+date: 2026-04-01 09:57:05 +0000
+published: false
+---
+
+Häufig wird mir die Frage gestellt, ob ich  schon die ganze Tour durchgeplant habe. Nein, das habe ich nicht. Das ist bei einer Radtour auch wenig sinnvoll. Zu viele Unwägbarkeiten können einen noch so gut durchgeplanten Urlaub ereilen. Wetter, Defekte oder einfach schöne oder nicht schöne Gegenden ändern rasch den Zeitplan. Ich habe zwar eine grobe Idee der Tour, aber klar geplant sind eigentlich nur die nächsten zwei bis drei Tage.
+
+Dafür bezahle ich mit Aufwand. Stetig gilt es, das Wetter zu prüfen, schöne Routen zu finden und das Ganze schlüssig aneinander zu ketten. Außerdem müssen Übernachtungen organisiert werden usw.
+
+Am Anfang steht der Reiseführer. Von denen habe ich einige elektronisch dabei. Das ist der _Lonely Planet_ und _Michael Müller_. Deren Studium hilft schon mal, lohnende Orte zu identifizieren. Die müssen dann auf eine Perlenkette schöner Radstrecken gefädelt werden. Diese Kombination ist in einem Inselarchipel mit sehr besiedelten Ebenen und wilden Bergen dazwischen alles andere als trivial.
+
+Man kann natürlich google maps anwerfen und ein routing von A nach B für Fahrrad ausspucken lassen. Das ist oft für längere Strecken gar nicht möglich und wenn doch ist der Streckenverlauf alles andere als erstrebenswert. Google maps minimiert Zeit und Entfernung. Landschaftliche Schönheit oder wenig Autoverkehr sind ihm egal. Mir aber nicht. Zum Glück gibt es aber nette Menschen die tolle Werkzeuge programmiert haben, um das zu lösen. Die Basis für alles ist Open Street Maps (OSM) das zumindest für Zentraleuropa und Japan eine sehr gute und korrekte Wegeabdeckung bietet. Alles erstellt von Freiwilligen. Dazu später mehr. Das nutzt man aber nicht "roh" sondern es gibt Andwendungen, die die OSM-Karten als Basis nehmen und darauf Routing-Algorithmen anwenden. Ich nutze [bikerouter](bikerouter.de) der mit zig verschiedenen Radprofilen - von _Rennrad schnell_ bis _MTB bergig_ jeden erdenklichen Fall abdeckt. Man kann auch sein eigenes Profil erstellen und damit routen lassen. Einen sehr guten Artikel dazu findet man in [Fahrradzukunft](https://fahrradzukunft.de/40/bikerouter).
+
+Für den Zielort muß dan entschieden werden, ob es sich lohnt, mehrere Tage zu bleiben oder ob es nur eine Übernachtungsstation sein soll. Danach wählt man das Quartier. Für eine Nacht ist mir das günstigste recht. Bei mehreren Tagen lohnt ein genauerer Blick. Leider gibt es bei Buchungsportalen ein Oligopol von booking.com und airbnb. Beide erlebe ich als Halsabschneider, die unverschämte Anteile vom Vermieter einfordern. Daher schaue ich oft erst in regionalen Portalen nach Quartieren. In Deutschland und Österreich bieten die Tourismisverbände oft brauchbare Übersichten. In Italien gibt es sogar eine italenische Konkurrenz [_bed-and-breakfast.it_](https://www.bed-and-breakfast.it/de/) mit der ich sehr gute Erfahrungen gemacht habe. In Japan gibt es auch Portale wie [rakuten](https://travel.rakuten.com/) oder [jalan.net](https://www.jalan.net) aber deren Auswahl ist mäßig oder sie sind nur auf Japanisch.
