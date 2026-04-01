@@ -25,7 +25,9 @@ To create a new blog post via GitHub Issues:
         1.  Upload your `.gpx` file to `assets/gpx/`.
         2.  Add a line in the issue body: `gpx: assets/gpx/your-track.gpx`.
     *   **Body**: The rest of the issue body will be the post content.
-4.  **Label**: Add the `new-post` label.
+4.  **Labels**: 
+    *   Add the `new-post` label to trigger the creation.
+    *   Add the `draft` label (optional) to set `published: false` in the post's front matter, keeping it hidden from the live site until manually published.
 5.  **Automation**: A GitHub Action will create the post, commit it, and close the issue with a link to the new post.
 
 **Example Issue Body:**

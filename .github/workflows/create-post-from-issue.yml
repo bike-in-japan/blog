@@ -16,6 +16,7 @@ jobs:
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
+          IS_DRAFT: ${{ contains(github.event.issue.labels.*.name, 'draft') }}
         run: bash tools/create-post.sh 2>error.txt
       - name: Comment on success
         if: success()

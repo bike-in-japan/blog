@@ -58,6 +58,9 @@ POST_DATE=$(date +"%Y-%m-%d %H:%M:%S %z")
   if [ -n "$TAGS" ]; then
     printf 'tags: [%s]\n' "$TAGS"
   fi
+  if [ "$IS_DRAFT" = "true" ]; then
+    printf 'published: false\n'
+  fi
   printf '%s\n\n' '---'
   printf '%s\n' "$BODY"
 } > "_posts/$DATE-$SLUG.md"
