@@ -18,4 +18,4 @@ Für den Zielort muß dann entschieden werden, ob es sich lohnt, mehrere Tage zu
 
 Neuerdings kann man mit Hilfe von KI noch erheblich besser planen. Zum einen gibt es dedizierte KI-Reiseführer (ich nutze [mindtrip.ai](https://mindtrip.ai)). Aber auch die üblichen Verdächtigen wie ChatGPT & Co. wissen einiges und ergänzen das gelesene. Besonders vorteilhaft ist, daß sie nach konkreten Richtungen befragt passende Dinge ausspucken. Das kann ein linearer Reiseführer so nicht.
 
-Ja und wer bei offenen Werkzeugen wie OSM mitmachen will, kann das z. B. sehr niederschwellig mit der app [StreetComplete](streetcomplete.app) wo man einfach Fragen zu dem Ort an dem man sich gerade befindet beantwortet und so mit hilft, daß OSM besser wird. 
+Ja und wer bei offenen Werkzeugen wie OSM mitmachen will, kann das z. B. sehr niederschwellig mit der app [StreetComplete](https://streetcomplete.app) wo man einfach Fragen zu dem Ort an dem man sich gerade befindet beantwortet und so mit hilft, daß OSM besser wird. 
