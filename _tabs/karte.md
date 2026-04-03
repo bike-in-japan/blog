@@ -31,20 +31,27 @@ order: 5
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
     var latlngs = [];
+    var japanLatLngs = [];
     points.forEach(function(point) {
       var marker = L.marker([point.latitude, point.longitude]).addTo(map);
       marker.bindPopup(point.name);
       latlngs.push([point.latitude, point.longitude]);
+      if (point.longitude > 125) {
+        japanLatLngs.push([point.latitude, point.longitude]);
+      }
     });
 
-    if (latlngs.length >= 2) {
-      L.polyline(latlngs, {
+    if (japanLatLngs.length >= 2) {
+      L.polyline(japanLatLngs, {
         color: 'grey',
         weight: 1.5,
         dashArray: '5, 5'
       }).addTo(map);
+    }
 
-      map.fitBounds(L.latLngBounds(latlngs), { padding: [50, 50] });
+    if (points.length >= 2) {
+      var last2 = latlngs.slice(-2);
+      map.fitBounds(L.latLngBounds(last2), { padding: [50, 50] });
     } else if (points.length === 1) {
       map.setView([points[0].latitude, points[0].longitude], 10);
     } else {
