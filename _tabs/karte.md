@@ -30,16 +30,21 @@ order: 5
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
+    var latlngs = [];
     points.forEach(function(point) {
       var marker = L.marker([point.latitude, point.longitude]).addTo(map);
       marker.bindPopup(point.name);
+      latlngs.push([point.latitude, point.longitude]);
     });
 
-    if (points.length >= 2) {
-      var p1 = points[points.length - 2];
-      var p2 = points[points.length - 1];
-      var bounds = L.latLngBounds([[p1.latitude, p1.longitude], [p2.latitude, p2.longitude]]);
-      map.fitBounds(bounds, { padding: [50, 50] });
+    if (latlngs.length >= 2) {
+      L.polyline(latlngs, {
+        color: 'grey',
+        weight: 1.5,
+        dashArray: '5, 5'
+      }).addTo(map);
+
+      map.fitBounds(L.latLngBounds(latlngs), { padding: [50, 50] });
     } else if (points.length === 1) {
       map.setView([points[0].latitude, points[0].longitude], 10);
     } else {
