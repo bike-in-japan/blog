@@ -1,8 +1,8 @@
 ---
 title: "Mein Rad-Setup (nur für freaks)"
-date: 2026-04-03 11:51:09 +0000
-categories: [[Technik]]
-tags: [[bike, equipment, tech]]
+date: 2026-04-03 12:28:51 +0000
+categories: [Technik]
+tags: [bike, equipment, tech]
 ---
 
 Früher hatte ich mal wie jeder gute Reiseradler ein _richtiges_ Reiserad und ein nicht so tolles Stadtrad auch statt Schlampe genannt. Diese Kombi habe ich irgendwann abgeschafft, weil ich gemerkt habe, dass das Stadtrad sehr häufig im Einsatz ist, bei Wind und Wetter stark verschleißt, aber ich auch darauf angewiesen bin, dass es stabil funktioniert. Irgendwann habe ich mir dann so um 2018 herum eine Art Reiserad für Arme gekauft. Es ist ein [Trekkingrad](https://de.wikipedia.org/wiki/Trekkingrad) von Cube, eigentlich ziemlich billig, aber ein Geheimtipp und der Reiseradlern: Das Cube Travel. Der Witz ist, es ist  eines der wenigen Räder für 29er Bereifung, die nicht auf Mountainbike hören. Es hat eine Trekking-Geometrie und keine Federgabel. Mittlerweile habe ich es stark modifiziert und einige Upgrades vorgenommen, damit es als Reiserad taugt. Gleichzeitig muss es als Stadtrad im Alltag möglichst gewöhnlich Aussehen und trotzdem gut funktionieren. Dazu darf es keinesfalls irgendwelche ganz tollen Eigenschaften haben, sondern muss dem Laien erscheinen, wie ein Allerweltsrad. Pinion, Rohloff oder Son sind tabu.
