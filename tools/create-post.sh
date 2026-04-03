@@ -7,7 +7,18 @@ BODY="$ISSUE_BODY"
 # Extract tags
 TAG_LINE=$(printf '%s' "$BODY" | grep -iE '^(tag|tags):' | head -n 1)
 if [ -n "$TAG_LINE" ]; then
-  TAGS=$(printf '%s' "$TAG_LINE" | sed -E 's/^(tag|tags)://i' | tr -d '\r' | sed 's/^ *//;s/ *$//')
+  # Extraction steps:
+  # 1. Strip the "tag:" or "tags:" prefix
+  # 2. Remove carriage returns (\r)
+  # 3. Trim leading/trailing whitespace
+  # 4. Remove leading/trailing brackets [] if present (avoids [[tag]] issue)
+  # 5. Trim whitespace again to handle cases like "[ tag ]"
+  TAGS=$(printf '%s' "$TAG_LINE" | \
+    sed -E 's/^(tag|tags)://i' | \
+    tr -d '\r' | \
+    sed 's/^ *//;s/ *$//' | \
+    sed 's/^\[//;s/\]$//' | \
+    sed 's/^ *//;s/ *$//')
   BODY=$(printf '%s' "$BODY" | grep -vFx "$TAG_LINE")
 else
   TAGS=""
@@ -16,7 +27,18 @@ fi
 # Extract categories
 CAT_LINE=$(printf '%s' "$BODY" | grep -iE '^(category|categories):' | head -n 1)
 if [ -n "$CAT_LINE" ]; then
-  CATEGORIES=$(printf '%s' "$CAT_LINE" | sed -E 's/^(category|categories)://i' | tr -d '\r' | sed 's/^ *//;s/ *$//')
+  # Extraction steps:
+  # 1. Strip the "category:" or "categories:" prefix
+  # 2. Remove carriage returns (\r)
+  # 3. Trim leading/trailing whitespace
+  # 4. Remove leading/trailing brackets [] if present
+  # 5. Trim whitespace again
+  CATEGORIES=$(printf '%s' "$CAT_LINE" | \
+    sed -E 's/^(category|categories)://i' | \
+    tr -d '\r' | \
+    sed 's/^ *//;s/ *$//' | \
+    sed 's/^\[//;s/\]$//' | \
+    sed 's/^ *//;s/ *$//')
   BODY=$(printf '%s' "$BODY" | grep -vFx "$CAT_LINE")
 else
   CATEGORIES=""
