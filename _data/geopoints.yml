@@ -10,6 +10,9 @@
 - name: Fukuoka
   latitude: 33.5904
   longitude: 130.4017
+- name: Karatsu
+  latitude: 33.450340
+  longitude: 129.967934
 - name: Ureshino Onsen
   latitude: 33.097
   longitude: 129.986

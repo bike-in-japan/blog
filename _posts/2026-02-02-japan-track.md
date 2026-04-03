@@ -18,11 +18,10 @@ Heute bin ich eine kleine Strecke in Tokio gefahren. Hier ist der GPX-Track:
   document.addEventListener("DOMContentLoaded", function() {
     var map = L.map('gpx-map');
 
-    L.tileLayer('https://{s}.tile.openstreetmap.de/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
-
     var gpxUrl = "{{ '/assets/gpx/example-track.gpx' | relative_url }}";
     new L.GPX(gpxUrl, {
       async: true,

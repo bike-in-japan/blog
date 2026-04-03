@@ -26,21 +26,43 @@ order: 5
 
     var map = L.map('map');
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
     }).addTo(map);
-
-    points.forEach(function(point) {
-      var marker = L.marker([point.latitude, point.longitude]).addTo(map);
-      marker.bindPopup(point.name);
+    var greenIcon = new L.Icon({
+      iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+      shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+      iconSize: [25, 41],
+      iconAnchor: [12, 41],
+      popupAnchor: [1, -34],
+      shadowSize: [41, 41]
     });
 
+    var latlngs = [];
+    var japanLatLngs = [];
+    points.forEach(function(point, index) {
+      var isLast = (index === points.length - 1);
+      var markerOptions = isLast ? { icon: greenIcon } : {};
+      var marker = L.marker([point.latitude, point.longitude], markerOptions).addTo(map);
+      marker.bindPopup(point.name);
+      latlngs.push([point.latitude, point.longitude]);
+      if (point.longitude > 125) {
+        japanLatLngs.push([point.latitude, point.longitude]);
+      }
+    });
+
+    if (japanLatLngs.length >= 2) {
+      L.polyline(japanLatLngs, {
+        color: 'grey',
+        weight: 1.5,
+        dashArray: '5, 5'
+      }).addTo(map);
+    }
+
     if (points.length >= 2) {
-      var p1 = points[points.length - 2];
-      var p2 = points[points.length - 1];
-      var bounds = L.latLngBounds([[p1.latitude, p1.longitude], [p2.latitude, p2.longitude]]);
-      map.fitBounds(bounds, { padding: [50, 50] });
+      var last2 = latlngs.slice(-2);
+      map.fitBounds(L.latLngBounds(last2), { padding: [50, 50] });
     } else if (points.length === 1) {
       map.setView([points[0].latitude, points[0].longitude], 10);
     } else {
