@@ -5,7 +5,7 @@ categories: [Technik]
 tags: [it, software, jekyll, github]
 ---
 
-Wenn man es leicht haben will macht man eine Insta-Story. Will ich aber nicht. Nicht Insta. Nicht leicht. Alle welt redet von digitaler Souveränität. Dann gehe ich mal voran. Dieser Blog nutzt [Jekyll](https://jekyllrb.com/) als *static site generator* - für nicht IT-affine: Wenn man was auf der Seite ändert, wird sie im Hintergrund neu gebaut. Als *theme* - wieder so ein Anglizismus - nutze ich [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) weil es mir gefällt. Das habe ich etwas angepasst auf meine Bedürfnisse. Zum Beispiel kann ich Landkarten darstellen (mit leaflet) und zeige das Wetter ([von open meteo](https://open-meteo.com)).
+Wenn man es leicht haben will macht man eine Insta-Story. Will ich aber nicht. Nicht Insta. Nicht leicht. Alle Welt redet von digitaler Souveränität. Dann gehe ich mal voran. Dieser Blog nutzt [Jekyll](https://jekyllrb.com/) als *static site generator* - für nicht IT-affine: Wenn man was auf der Seite ändert, wird sie im Hintergrund neu gebaut. Als *theme* - wieder so ein Anglizismus - nutze ich [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) weil es mir gefällt. Das habe ich etwas angepasst auf meine Bedürfnisse. Zum Beispiel kann ich Landkarten darstellen (mit leaflet) und zeige das Wetter ([von open meteo](https://open-meteo.com)).
 
 Gehostet ist das bei Github und dort wird es auch gleich gebaut über *actions*. Einen neuen Beitrag schreibe ich einfach als *issue* im repo mit entsprechendem Label.
 
@@ -16,6 +16,6 @@ Alle Texte liegen als menschenlesbare Dateien vor ([markdown](https://de.wikiped
 ---
 Glossar:
 - theme: die Oberfläche einer Anwendung (Farben, Schriftarten, ggf. Funktionen)
-- git: eine software zur Versionskontrolle von (meist) Textdateien, wie Programmcode oder diesen Text
+- git: eine Software zur Versionskontrolle von (meist) Textdateien, wie Programmcode oder diesen Text
 - actions: Aufgaben auf den diese Seite bereitstellenden Server, die bestimmte Automatisierungen ausführen
 - issue: Bei Software bezeichnet das eine Anmerkung oder Problem. Ich *mißbrauche* das, um Beiträge zu schreiben.

@@ -6,7 +6,7 @@ tags: [winter, ski, ]
 published: false
 ---
 
-Eigentlich ist Fiescheralp in schweizer Wallis ein großes Skigebiet. Trotzdem findet sich die eine oder andere Tour für Freunde der Aufstiegs ohne Hilfe. So haben wir uns heute eine kleine Runde zum Ausblick auf den Aletschgletscher am Bettmerhorn ausgesucht. Zum Start rutscht man - nach kurzem Anstieg ohne Felle - auf dem Wanderweg Richtung Westen zur Bättmerhütte. Dort schnappen wir uns einen Haken eines kleinen Schlepplifts, der uns zehn Höhenmeter schenkt. Die breiten Skipisten querend schlagen wir uns zum Bettmersee durch, umrunden ihn und steigen dann in freiem Gelände Richtung Blausee an. Den lassen wir aber links liegen und wenden uns gen Nordosten parallel zur Seilbahn Moosfluh vorbei an deren Bergstation gerade Richtung Bettmerhorn. 
+Eigentlich ist Fiescheralp im Schweizer Wallis ein großes Skigebiet. Trotzdem findet sich die eine oder andere Tour für Freunde der Aufstiegs ohne Hilfe. So haben wir uns heute eine kleine Runde zum Ausblick auf den Aletschgletscher am Bettmerhorn ausgesucht. Zum Start rutscht man - nach kurzem Anstieg ohne Felle - auf dem Wanderweg Richtung Westen zur Bättmerhütte. Dort schnappen wir uns einen Haken eines kleinen Schlepplifts, der uns zehn Höhenmeter schenkt. Die breiten Skipisten querend schlagen wir uns zum Bettmersee durch, umrunden ihn und steigen dann in freiem Gelände Richtung Blausee an. Den lassen wir aber links liegen und wenden uns gen Nordosten parallel zur Seilbahn Moosfluh vorbei an deren Bergstation gerade Richtung Bettmerhorn. 
 
 ![Blick auf Aletschgletscher und Bettmerhorn](/assets/img/bettmerhorn.jpg)
 

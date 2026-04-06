@@ -10,4 +10,4 @@ Es geht aber auch Nachmittag
 
 {% include gpx-map.html track="assets/gpx/Fahrt_am_Morgen.gpx" %}
 
-Meine lieblingstour für's Rennrad
+Meine Lieblingstour für's Rennrad
