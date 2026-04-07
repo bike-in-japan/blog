@@ -1,9 +1,9 @@
-- name: Prague
-  latitude: 50.0755
-  longitude: 14.4378
-- name: Taipei
-  latitude: 25.0330
-  longitude: 121.5654
+# - name: Prague
+#   latitude: 50.0755
+#   longitude: 14.4378
+# - name: Taipei
+#   latitude: 25.0330
+#   longitude: 121.5654
 - name: Fukuoka Airport
   latitude: 33.5859
   longitude: 130.4511
