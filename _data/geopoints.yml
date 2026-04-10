@@ -25,3 +25,6 @@
 - name: Yufuin Onsen
   latitude: 33.262
   longitude: 131.356
+- name: Matsuyama
+  latitude: 33.0
+  longitude: 8445500.0
