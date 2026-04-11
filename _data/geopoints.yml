@@ -26,5 +26,8 @@
   latitude: 33.262
   longitude: 131.356
 - name: Matsuyama
-  latitude: 33.0
-  longitude: 8445500.0
+  latitude: 33.8418
+  longitude: 132.76169
+- name: Hiroshima
+  latitude: 34.39298
+  longitude: 132.45256
