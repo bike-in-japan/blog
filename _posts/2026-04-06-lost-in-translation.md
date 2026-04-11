@@ -2,7 +2,7 @@
 title: "Lost in translation"
 date: 2026-04-06 12:00:52 +0000
 categories: [Kultur]
-tags: [laguage]
+tags: [language]
 ---
 
 Ein erster Eindruck

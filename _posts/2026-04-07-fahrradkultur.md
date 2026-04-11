@@ -1,6 +1,8 @@
 ---
 title: "Fahrradkultur"
 date: 2026-04-07 07:22:19 +0000
+categories: [Kultur]
+tags: [bike, city, sport]
 ---
 
 Japan hat eigentlich, ähnlich wie China, eine ganz starke Fahrradtradition. Auf alten Fotos sieht man die Orte voller Räder. Die ist mit dem Aufkommen von Autos aber ziemlich verloren gegangen. Heute sind etwa 80 % aller Fahrräder Stadtkutschen. [Mamachari](https://www.nippon.com/en/features/jg00091/) werden die genannt, wörtlich "Mama-Fahrrad. Es sind Räder meist mit tiefem Durchstieg, oft mit Korb und Kindersitz. Typisch das, was man in der Stadt benutzt und auch von uns kennt. 

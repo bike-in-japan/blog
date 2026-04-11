@@ -1,6 +1,8 @@
 ---
 title: "Ist Japan teuer?"
 date: 2026-04-09 04:58:08 +0000
+categories: [Wirtschaft]
+tags: [money, prices]
 ---
 
 Bisher nicht. Im Gegenteil: Alle Dienstleistungen wie Hotel und Restaurant sind günstiger als in Deutschland. Zieht man noch die Reinlichkeit, oft Onsen inclusive und daß immer alle möglichen Kleinigkeiten selbst bis zum Rasierer mit am Start sind in Betracht, ist es geradezu günstig. 

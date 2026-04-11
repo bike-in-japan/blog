@@ -2,7 +2,7 @@
 title: "Skitour zum Aletschgletscher"
 date: 2026-02-08 15:25:07 +0000
 categories: [Sport]
-tags: [winter, ski, ]
+tags: [winter, ski]
 published: false
 ---
 

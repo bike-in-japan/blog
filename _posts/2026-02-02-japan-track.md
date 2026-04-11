@@ -1,8 +1,8 @@
 ---
 title: "Japan Tour: Ein Tag auf dem Rad"
 date: 2026-02-02 10:00:00 +0100
-categories: [Reisebericht]
-tags: [fahrrad, gpx, karte]
+categories: [Reisen]
+tags: [bike, gpx, map]
 published: false
 ---
 

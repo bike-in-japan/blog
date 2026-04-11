@@ -2,7 +2,7 @@
 title: "Die Technik hinter diesem Blog"
 date: 2026-02-03 19:37:19 +0000
 categories: [Technik]
-tags: [it, software, jekyll, github]
+tags: [tech, software, jekyll, github]
 ---
 
 Wenn man es leicht haben will macht man eine Insta-Story. Will ich aber nicht. Nicht Insta. Nicht leicht. Alle Welt redet von digitaler Souveränität. Dann gehe ich mal voran. Dieser Blog nutzt [Jekyll](https://jekyllrb.com/) als *static site generator* - für nicht IT-affine: Wenn man was auf der Seite ändert, wird sie im Hintergrund neu gebaut. Als *theme* - wieder so ein Anglizismus - nutze ich [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) weil es mir gefällt. Das habe ich etwas angepasst auf meine Bedürfnisse. Zum Beispiel kann ich Landkarten darstellen (mit leaflet) und zeige das Wetter ([von open meteo](https://open-meteo.com)).

@@ -1,8 +1,8 @@
 ---
 title: "Test if cat and tag detection works as intended"
 date: 2026-04-01 01:58:01 +0000
-categories: [cat1, cat2.]
-tags: [tag1, tag2.]
+categories: [cat1, cat2]
+tags: [tag1, tag2]
 published: false
 ---
 
