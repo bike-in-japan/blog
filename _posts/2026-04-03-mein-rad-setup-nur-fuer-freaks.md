@@ -1,6 +1,10 @@
 ---
 title: "Mein Rad-Setup (nur für Freaks)"
 date: 2026-04-03 12:28:51 +0000
+description: "Ein tiefgehender Einblick in mein modifiziertes Cube Travel Rad-Setup, optimiert für lange Radreisen und den Alltag."
+image:
+  path: https://github.com/user-attachments/assets/1dc7b4d9-8eee-404d-8980-55010ccb5222
+  alt: Rad-Setup für die Japanreise
 categories: [Technik]
 tags: [bike, equipment, tech]
 ---

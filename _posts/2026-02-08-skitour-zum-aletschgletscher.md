@@ -1,6 +1,10 @@
 ---
 title: "Skitour zum Aletschgletscher"
 date: 2026-02-08 15:25:07 +0000
+description: "Eine Skitour-Runde im Wallis: Vom Bettmerhorn hat man einen beeindruckenden Blick auf den Aletschgletscher."
+image:
+  path: /assets/img/bettmerhorn.jpg
+  alt: Blick auf Aletschgletscher und Bettmerhorn
 categories: [Sport]
 tags: [winter, ski]
 published: false

@@ -2,6 +2,9 @@
 title: "Lost in translation"
 date: 2026-04-06 12:00:52 +0000
 description: "Erste Eindrücke von Japan: Über Sprachbarrieren, die Sauberkeit im Land, japanische Höflichkeit und die rettende Hilfe durch moderne Technik."
+image:
+  path: https://github.com/user-attachments/assets/e058ab56-622d-4a69-b3d2-2ef4c5a9d001
+  alt: Japanischer Bezahlautomat im Restaurant
 categories: [Kultur]
 tags: [language]
 ---

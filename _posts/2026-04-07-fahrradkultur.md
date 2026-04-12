@@ -2,6 +2,9 @@
 title: "Fahrradkultur"
 date: 2026-04-07 07:22:19 +0000
 description: "Ein Einblick in die Fahrradkultur in Japan: Von Alltagsrädern (Mamachari) bis hin zur Radinfrastruktur im Vergleich zu Deutschland."
+image:
+  path: https://github.com/user-attachments/assets/a94939dc-e5db-4d27-8c02-007d34c802bf
+  alt: Japanisches Fahrrad in der Stadt
 categories: [Kultur]
 tags: [bike, city, sport]
 ---

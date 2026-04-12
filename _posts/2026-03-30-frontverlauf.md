@@ -1,6 +1,10 @@
 ---
 title: "Frontverlauf"
 date: 2026-03-30 09:36:24 +0000
+description: "Ein Blick auf den offiziell überwachten Verlauf der Kirschblüte in Japan und wie sie sich über die bergige Landschaft bewegt."
+image:
+  path: https://github.com/user-attachments/assets/e495a997-774d-4f8d-8078-d6859afb0035
+  alt: Kirschblüten
 categories: [Geografie]
 tags: [hanami, weather]
 ---
