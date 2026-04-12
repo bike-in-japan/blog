@@ -1,6 +1,7 @@
 ---
 title: "Ist Japan teuer?"
 date: 2026-04-09 04:58:08 +0000
+description: "Ist eine Radreise durch Japan teuer? Ein Erfahrungsbericht über Preise für Verpflegung, Unterkünfte und Dienstleistungen in Japan."
 categories: [Wirtschaft]
 tags: [money, prices]
 ---

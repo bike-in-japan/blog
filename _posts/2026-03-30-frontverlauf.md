@@ -7,7 +7,7 @@ tags: [hanami, weather]
 
 Nein, nicht das was du denkst. Hier geht es ganz im Gegensatz zu anderen Gegenden um den Verlauf der Blütenfront. Weltweit bekannt ist ja die Kirschblüte Japans. Die ist gerade im Gange und ein wichtiges, hochoffizielles Ereignis. Und alles Wichtige wird hier bis ins Kleinste überwacht und verwaltet.
 
-![Image](https://github.com/user-attachments/assets/e495a997-774d-4f8d-8078-d6859afb0035)
+![Kirschblüten](https://github.com/user-attachments/assets/e495a997-774d-4f8d-8078-d6859afb0035)
 
 Das Land erstreckt sich mit seinen vier Hauptinseln nicht nur über mehr als zehn Breitengrade - in europäischen Längen wäre das von Alexandria in Ägypten bis Neapel. Auch ist es extrem bergig. Die Kirschblüte wandert im Prinzip von Süd nach Nord, aber springt eben gerne zu Tiefebenen und Tälern nördlich hoher Berge bevor die dran sind.
 
@@ -19,9 +19,11 @@ Wer auf einen der Links geklickt hat und dann eine mit viel Text zugekleisterte 
 
 In dem Zusammenhang habe ich auch mal recherchiert, wie schnell rein statistisch der Frühling nach Norden wandert. Während man in Deutschland etwa 30-40km pro Tag gemessen hat, sind es wegen der wilden Geografie in Japan nur rund zwanzig. Ich habe also gute Chancen, auf meinen Weg nach Norden von der Blüte begleitet zu werden. 
 
-![Image](https://github.com/user-attachments/assets/80724315-5872-4bf8-bc04-b1eea8b14a9b)
+![Zweite Wetterkarte](https://github.com/user-attachments/assets/80724315-5872-4bf8-bc04-b1eea8b14a9b)
 
 Noch ein paar Geospielchen gefällig: 
 Wo käme man raus , wenn man von sich ein Loch durch den Erdmittelpunkt gräbt? [Bitteschön](https://www.antipodesmap.com/#coordinates-converter) Ich wäre gerade vor der Küste Uruguays.  
 Welche Orte liegen auf der gleichen Länge oder Breite? [Vola](https://latlonconnect.app/?lat=33.6&lng=130.41667&bufferDistance=10&minPopulation=100000&useImperialUnits=false) Damaskus und Casablanca kommen aktuell für mich raus.
+
+aus.
 

@@ -1,6 +1,7 @@
 ---
 title: "Tipp für Leser am PC"
 date: 2026-04-07 06:40:27 +0000
+description: "Wie man als PC-Nutzer meinen Blog bequem per RSS-Feed verfolgen kann, ohne ihn täglich besuchen zu müssen."
 categories: [Technik]
 tags: [tipp, pc]
 ---
