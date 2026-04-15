@@ -1,6 +1,11 @@
 ---
 title: "Macht Kinder!"
 date: 2026-04-15 09:36:17 +0000
+image:
+  path: https://github.com/user-attachments/assets/ec32c663-0779-492b-b3dc-c632206b8e33
+  alt: Verlassenes Anwesen
+categories: [Kultur]
+tags: [population, society]
 ---
 
 Das ist vielleicht nicht direkt der Aufruf für Leute meiner Generation, aber es soll ja auch jüngere Leser geben. 
