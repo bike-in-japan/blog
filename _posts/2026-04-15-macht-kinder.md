@@ -16,4 +16,7 @@ Japaner sind solchen Rufen nicht gefolgt und haben nun den Salat. Es ist das Lan
 
 Dörfer vergreisen, Infrastruktur wird unverhältnismäßig teuer pro Kopf und für viele Arbeiten fehlen die Leute. Die Zutaten zu diesem Salat sind unter anderem ein sehr forderndes Arbeitsleben. Allein deshalb verzichten Paare auf Kinder. Zuwanderung ist auch gering weil nicht gewollt und die Kultur und Sprachbarriere ist hoch. 
 
+<img width="580" height="400" alt="Image" src="https://github.com/user-attachments/assets/84998f63-06dc-4403-92a8-aa85cd93b08c" />   \
+Quelle: [UN](https://population.un.org/wpp/)
+
 Wenn das so weiter geht, wonach es aussieht, verliert Japan pro Generation etwas zwanzig Prozent seiner Bevölkerung. Dann wäre 2050 nur die Hälfte der Bevölkerung in erwerbsfähigem Alter. Und Frauen gehen hier wir seltener einer Erwerbsarbeit nach als bei uns. Dabei arbeiten viele ohnehin bis ins hohe Alter noch. Rentenbeginn ist ohnehin erst mit 71. Gestern hat ein greiser Koch (81) mit das Ramen zubereitet. 
