@@ -31,6 +31,12 @@
 - name: Hiroshima
   latitude: 34.39298
   longitude: 132.45256
+- name: Imabari
+  latitude: 34.07
+  longitude: 133.0051
 - name: Shikokuchuo
-  latitude: 33.9811
-  longitude: 133.5418
+  latitude: 33.9796
+  longitude: 133.543
+- name: Miyoshi
+  latitude: 34.0272
+  longitude: 133.8107
