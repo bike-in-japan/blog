@@ -43,3 +43,9 @@
 - name: Takamatsu
   latitude: 34.3131
   longitude: 134.0559
+- name: Tokushima
+  latitude: 34.06338
+  longitude: 134.55683
+- name: Gojo
+  latitude: 34.346
+  longitude: 135.678
