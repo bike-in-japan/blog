@@ -41,4 +41,4 @@ Neben diesem Blog kannst du meine Reise auch auf anderen Kanälen verfolgen:
 *   **Polarsteps:** [Mein Profil](https://www.polarsteps.com/bikeinjapan/24685604-japan)
 *   **GitHub:** [Repository dieses Blogs](https://github.com/bike-in-japan/blog)
 
-Schreib mir gerne eine [E-Mail](mailto:{{ site.social.email }}), wenn du Fragen oder Tipps für mich hast.
+Schreib mir gerne eine {% include email-obfuscated.html label="email" %} wenn du Fragen oder Tipps für mich hast.
