@@ -55,4 +55,10 @@
 - name: Gojo
   latitude: 34.346
   longitude: 135.678
+- name: Asuka
+  latitude: 34.4752
+  longitude: 135.8206
+- name: Yoshino
+  latitude: 34.39162
+  longitude: 135.8476
   
