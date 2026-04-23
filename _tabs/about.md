@@ -2,7 +2,11 @@
 # the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
+load_obfuscate: true
 ---
+{% if page.load_obfuscate %}
+<script src="{{ '/assets/js/obfuscate.js' | relative_url }}" defer></script>
+{% endif %}
 
 > Weltanschauung kommt von Welt anschauen.
 {: .prompt-tip }
@@ -41,4 +45,4 @@ Neben diesem Blog kannst du meine Reise auch auf anderen Kanälen verfolgen:
 *   **Polarsteps:** [Mein Profil](https://www.polarsteps.com/bikeinjapan/24685604-japan)
 *   **GitHub:** [Repository dieses Blogs](https://github.com/bike-in-japan/blog)
 
-Schreib mir gerne eine {% include email-obfuscated.html label="email" %} wenn du Fragen oder Tipps für mich hast.
+Schreib mir gerne eine {% include email-obfuscated.html label="email" %}, wenn du Fragen oder Tipps für mich hast.

@@ -23,7 +23,10 @@
 						"text": "This dev container includes `jekyll` (with `github-pages` and `jekyll-sass-converter`) and bundler (`bundle`) pre-installed and available on the `PATH`."
 					}
 				]
-			}
+			},
+			"extensions": [
+				"ms-vscode.live-server"
+			]
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

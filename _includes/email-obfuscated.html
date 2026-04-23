@@ -1,10 +1,2 @@
-<a id="obf-email" href="#">{{ include.label | default: "Contact me" }}</a>,
-<script>
-    (function () {
-        const u = "{{ site.contact.name }}";
-        const d = "{{ site.contact.domain }}";
-        const el = document.getElementById("obf-email");
-        el.href = "mailto:" + u + "@" + d;
-        // el.textContent = u + "@" + d;
-    })();
-</script>
+<a data-obf-email href="#" data-u="{{ site.contact.name }}" data-d="{{ site.contact.domain }}">{{ include.label |
+    default: "Contact me" }}</a>
