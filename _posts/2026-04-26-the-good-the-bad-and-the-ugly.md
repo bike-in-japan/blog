@@ -1,6 +1,6 @@
 ---
 title: "The good, the bad and the ugly"
-date: 2026-04-26 08:28:03 +0000
+date: 2026-04-26 08:32:42 +0000
 categories: [Kultur]
 tags: [travel, infrastructure, culture, society]
 ---
@@ -21,4 +21,4 @@ Beim Thema Umweltschutz oder Nachhaltigkeit ist noch Luft nach oben. Alles wird 
 
 Gerne wird auch der Motor vom Auto laufen gelassen, wenn man in ein Geschäft geht. Wie schon im Beitrag zur Fahrradkultur erwähnt, sind echte Radwege eine Seltenheit. Als echte Alternative zum Auto wird es nicht wahrgenommen.
 
-Auch wenn im Titel "the ugly" vorkommt (so [heißt nun mal der Film](https://de.wikipedia.org/wiki/Zwei_glorreiche_Halunken)) kann ich bisher nichts in diese Kategorie einordnen. Ich weiß, daß [die Gesellschaft viele Probleme]({%  [beeindruckt]({% post_url 2026-04-15-macht-kinder %}) hat. Überalterung, hierarchisches Denken, viele Überstunden, kaum Kinder sind aber Themen, die ich nicht sehe als Reisender und die mich auch nicht direkt betreffen.
+Auch wenn im Titel "the ugly" vorkommt (so [heißt nun mal der Film](https://de.wikipedia.org/wiki/Zwei_glorreiche_Halunken)) kann ich bisher nichts in diese Kategorie einordnen. Ich weiß, daß [die Gesellschaft viele Probleme]({%   post_url 2026-04-15-macht-kinder %}) hat. Überalterung, hierarchisches Denken, viele Überstunden, kaum Kinder sind aber Themen, die ich nicht sehe als Reisender und die mich auch nicht direkt betreffen.
