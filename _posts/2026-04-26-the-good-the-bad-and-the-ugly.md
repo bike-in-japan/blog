@@ -5,9 +5,9 @@ categories: [Kultur]
 tags: [travel, infrastructure, culture, society]
 ---
 
-Nach gut drei Wochen Reisen durch Japan habe ich schon einen ziemlich breiten Eindruck von Land bekommen. Zwar fehlt naturgemäß der Einblick in Familien- oder Arbeitsalltag, aber gerade allein reisend kommt man in Kontakt. 
+Nach gut drei Wochen Reisen durch Japan habe ich schon einen ziemlich breiten Eindruck vom Land bekommen. Zwar fehlt naturgemäß der Einblick in Familien- oder Arbeitsalltag, aber gerade allein reisend kommt man in Kontakt. 
 
-Das beste an Japan kann ich gar nicht so recht benennen. So vieles ist hier beeindruckend anders, gut, ungewohnt. Vielleicht das offensichtliche zuerst: Die berühmte Höflichkeit und Zurückhaltung ist allgegenwärtig . Das ist tief in der DNA dieser Menschen verankert. Schnell habe ich deutsch europäische Direktheit eingetauscht gegen die japanische Art. Jede Interaktion füllt sich damit geschmeidiger, ruhiger an. Das kann schon mal kurios werden, wenn beispielsweise auf einer schmalen Straße das entgegenkommende Auto anhält und ich auch. Dann gefriert Höflichkeit schon mal zu Stillstand. 
+Das Beste an Japan kann ich gar nicht so recht benennen. So vieles ist hier beeindruckend anders, gut, ungewohnt. Vielleicht das Offensichtliche zuerst: Die berühmte Höflichkeit und Zurückhaltung ist allgegenwärtig. Das ist tief in der DNA dieser Menschen verankert. Schnell habe ich deutsch-europäische Direktheit eingetauscht gegen die japanische Art. Jede Interaktion fühlt sich damit geschmeidiger, ruhiger an. Das kann schon mal kurios werden, wenn beispielsweise auf einer schmalen Straße das entgegenkommende Auto anhält und ich auch. Dann gefriert Höflichkeit schon mal zu Stillstand. 
 
 Die [enorme Reinlichkeit]({% post_url 2026-04-21-die-kunst-der-reinlichkeit %}) ist auch sofort augenfällig. Das färbt auch ab und ich erwische mich beim Schuhe Putzen nach einer Regenfahrt. Unschädlich. Großartig ist, daß es überall Toiletten gibt, immer kostenlos. Ausnahmslos. Und auch die sind immer sauber. Das ist für Reisende ein Traum. 
 
@@ -17,7 +17,7 @@ Fast verstörend ist, wie günstig die meisten Dinge sind, die man als Reisender
 
 Schnell habe ich mich auch daran gewöhnt, daß Kriminalität hier offenbar eine Seltenheit ist. Selbst in Städten wundert man sich, wenn ich nach einem Ort zum sicher abstellen des Fahrrades frage. Vor der Tür. Wo sonst. 
 
-Beim Thema Umweltschutz oder Nachhaltigkeit ist noch Luft nach oben. Alles wird in Plastik verpackt. Selbst eine einzelne Banane steckt noch mal in einer Plastiktüte. Wenn ich im Laden meinen Einkaufsbeutel zücke, freuen sich die Verkäufer leicht belustigt über die seltsame Langnase. Jeder hier läßt sich natürlich eine neue Plastiktüte geben. 
+Beim Thema Umweltschutz oder Nachhaltigkeit ist noch Luft nach oben. Alles wird in Plastik verpackt. Selbst eine einzelne Banane steckt noch mal in einer Plastiktüte. Wenn ich im Laden meinen Einkaufsbeutel zücke, freuen sich die Verkäufer leicht belustigt über die seltsame Langnase. Jeder hier lässt sich natürlich eine neue Plastiktüte geben. 
 
 Gerne wird auch der Motor vom Auto laufen gelassen, wenn man in ein Geschäft geht. Wie schon im Beitrag zur Fahrradkultur erwähnt, sind echte Radwege eine Seltenheit. Als echte Alternative zum Auto wird es nicht wahrgenommen.
 
