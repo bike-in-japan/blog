@@ -64,4 +64,6 @@
 - name: Nabari 
   latitude: 34.6213
   longitude: 136.094364
-  
+- name: Otsu
+  latitude: 35.018
+  longitude: 135.868
