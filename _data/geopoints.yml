@@ -67,3 +67,6 @@
 - name: Otsu
   latitude: 35.018
   longitude: 135.868
+- name: Osaka
+  latitude: 34.6937
+  longitude: 135.5023
