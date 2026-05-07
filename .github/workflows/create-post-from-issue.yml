@@ -11,13 +11,17 @@ jobs:
       issues: write
     steps:
       - uses: actions/checkout@v4
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
       - name: Create blog post from issue
         id: create-post
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_BODY: ${{ github.event.issue.body }}
           IS_DRAFT: ${{ contains(github.event.issue.labels.*.name, 'draft') }}
-        run: bash tools/create-post.sh 2>error.txt
+        run: uv run tools/create-post.py 2>error.txt
       - name: Comment on success
         if: success()
         uses: actions/github-script@v6
