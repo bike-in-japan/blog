@@ -70,3 +70,10 @@
 - name: Osaka
   latitude: 34.6937
   longitude: 135.5023
+- name: Omihachiman
+  latitude: 35.12325
+  longitude: 136.1034
+- name: Tsuruga
+  latitude: 35.64576
+  longitude: 136.07556
+  
