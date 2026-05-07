@@ -24,6 +24,9 @@ To create a new blog post via GitHub Issues:
     *   **GPX Track**: To include an interactive map:
         1.  Upload your `.gpx` file to `assets/gpx/`.
         2.  Add a line in the issue body: `gpx: assets/gpx/your-track.gpx`.
+    *   **Image**: To include a header image for the post:
+        *   Add a line `image_path: https://github.com/user-attachments/assets/...` (or a local path).
+        *   Add a line `image_alt: A description of the image`.
     *   **Body**: The rest of the issue body will be the post content.
 4.  **Labels**: 
     *   Add the `new-post` label to trigger the creation.
@@ -34,6 +37,8 @@ To create a new blog post via GitHub Issues:
 ```text
 tags: skitour, outdoor
 categories: winter, switzerland
+image_path: https://github.com/user-attachments/assets/ff368f4c-a4ce-4777-85c6-010b188d66e5
+image_alt: Osterschmuck an Kirche
 gpx: assets/gpx/bettmerhorn.gpx
 
 This was an amazing day at the Aletschgletscher! The weather was perfect.

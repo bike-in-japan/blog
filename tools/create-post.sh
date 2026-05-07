@@ -44,6 +44,24 @@ else
   CATEGORIES=""
 fi
 
+# Extract image path
+IMAGE_PATH_LINE=$(printf '%s' "$BODY" | grep -iE '^image_path:' | head -n 1)
+if [ -n "$IMAGE_PATH_LINE" ]; then
+  IMAGE_PATH=$(printf '%s' "$IMAGE_PATH_LINE" | sed -E 's/^image_path://i' | tr -d '\r' | sed 's/^ *//;s/ *$//')
+  BODY=$(printf '%s' "$BODY" | grep -vFx "$IMAGE_PATH_LINE")
+else
+  IMAGE_PATH=""
+fi
+
+# Extract image alt
+IMAGE_ALT_LINE=$(printf '%s' "$BODY" | grep -iE '^image_alt:' | head -n 1)
+if [ -n "$IMAGE_ALT_LINE" ]; then
+  IMAGE_ALT=$(printf '%s' "$IMAGE_ALT_LINE" | sed -E 's/^image_alt://i' | tr -d '\r' | sed 's/^ *//;s/ *$//')
+  BODY=$(printf '%s' "$BODY" | grep -vFx "$IMAGE_ALT_LINE")
+else
+  IMAGE_ALT=""
+fi
+
 # Extract GPX track
 GPX_LINE=$(printf '%s' "$BODY" | grep -iE '^gpx: ' | head -n 1)
 if [ -n "$GPX_LINE" ]; then
@@ -79,6 +97,13 @@ POST_DATE=$(date +"%Y-%m-%d %H:%M:%S %z")
   fi
   if [ -n "$TAGS" ]; then
     printf 'tags: [%s]\n' "$TAGS"
+  fi
+  if [ -n "$IMAGE_PATH" ]; then
+    printf 'image:\n'
+    printf '  path: %s\n' "$IMAGE_PATH"
+    if [ -n "$IMAGE_ALT" ]; then
+      printf '  alt: "%s"\n' "$IMAGE_ALT"
+    fi
   fi
   if [ "$IS_DRAFT" = "true" ]; then
     printf 'published: false\n'
