@@ -23,7 +23,7 @@ Wie man im Blog auch leicht sehen kann, mag ich Technik und Programmieren.
 
 ## Warum Japan?
 
-Einen ausführlichen Beitrag dazu, was mich an diesem Land reizt, findest du hier: [Warum Japan?](/posts/warum-japan/)
+Einen ausführlichen Beitrag dazu, was mich an diesem Land reizt, findest du hier: [Warum Japan?]({{ '/posts/warum-japan/' | relative_url }})
 
 ## Mein Rad-Setup
 
@@ -36,7 +36,7 @@ Ein Überblick über die Ausrüstung.
 | **Taschen** | Ortlieb Backpacker - die ganz großen |
 | **Reifen** | Schwalbe Marathon Almotion 55-622 (tubeless)|
 
-Mehr Details zu meinem Setup findest du auch in [diesem Post](/posts/mein-rad-setup-nur-fuer-freaks/).
+Mehr Details zu meinem Setup findest du auch in [diesem Post]({{ '/posts/mein-rad-setup-nur-fuer-freaks/' | relative_url }}).
 
 ## Wo man mich findet
 

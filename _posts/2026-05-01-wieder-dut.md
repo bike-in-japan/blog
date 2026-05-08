@@ -7,8 +7,7 @@ date: 2026-05-01 02:41:03 +0000
 
 Heraus zum ersten Mai! Das Wetter ist schön und es gibt viele Gründe, auf die Straße zu gehen. Vielleicht will man demonstrieren. Vielleicht spazieren gehen oder einfach in den Frühling blinzeln. 
 
-Vor einem Monat hatte ich [schon mal den DUT thematisiert](/posts/dut/). Und? Hat dich das motiviert etwas zu ändern? Hast du dich inzwischen digital etwas unabhängiger gemacht? Ja? Prima, dann kommen hier weitere Vorschläge. Nein? Na gut, dann können hier ein paar Ideen. 
-
+Vor einem Monat hatte ich [schon mal den DUT thematisiert]({{ '/posts/dut/' | relative_url }}). Und? Hat dich das motiviert etwas zu ändern? Hast du dich inzwischen digital etwas unabhängiger gemacht? Ja? Prima, dann kommen hier weitere Vorschläge. Nein? Na gut, dann können hier ein paar Ideen.
 Nahezu jeder benutzt ein US-amerikanisches Betriebssystem auf seinem Rechner. Es gibt eigentlich nur drei Kosmen. IOS von Apple und Windows von Microsoft sind die der Großkonzerne. Die greifen mehr oder weniger deine Daten ab, schröpfen dich beim Kauf und zwingen dich auch noch, einen neuen Rechner zu kaufen, wenn sie meinen, daß es Zeit ist obwohl der noch perfekt funktioniert und alles leistet, was man braucht. 
 
 Außerdem sind sie die DIE Angriffsziele von Hackern weil sie eben jeder nutzt. Und ob Sicherheitslücken geschossen werden und wie schnell, entscheiden die. 
