@@ -4,13 +4,14 @@
 		"context": "."
 	},
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
+		"ghcr.io/devcontainers/features/node:2.0.0": {
             "version": "none"
         },
 		"ghcr.io/devcontainers/features/git:1": {
             "version": "latest",
             "ppa": "false"
-        }
+        },
+		"ghcr.io/jsburckhardt/devcontainer-features/uv:1": {}
 	},
 	// Configure tool-specific properties.
 	"customizations": {
@@ -18,10 +19,8 @@
 		"vscode": {
 			// Set *default* container specific settings.json values on container create.
 			"settings": {
-				"github.copilot.chat.codeGeneration.instructions": [
-					{
-						"text": "This dev container includes `jekyll` (with `github-pages` and `jekyll-sass-converter`) and bundler (`bundle`) pre-installed and available on the `PATH`."
-					}
+				"github.copilot.customInstructions.files": [
+					".devcontainer/copilot-instructions.md"
 				]
 			},
 			"extensions": [

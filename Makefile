@@ -24,14 +24,14 @@ help:
 install:
 	bundle install
 
-serve dev:
-	bash $(TOOLS_DIR)/run.sh
+dev:
+	uv run $(TOOLS_DIR)/run.py
 
 build:
 	JEKYLL_ENV=production $(JEKYLL) build
 
 test:
-	bash $(TOOLS_DIR)/test.sh
+	uv run $(TOOLS_DIR)/test.py
 
 clean:
 	$(JEKYLL) clean
