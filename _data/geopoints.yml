@@ -76,4 +76,15 @@
 - name: Tsuruga
   latitude: 35.64576
   longitude: 136.07556
-  
+- name: Sakai (Fukui)
+  latitude: 36.19
+  longitude: 136.13516
+- name: Kanazawa
+  latitude: 36.5613
+  longitude: 136.6562
+- name: Himi
+  latitude: 36.82275
+  longitude: 137.026315
+- name: Asahi (Toyama)
+  latitude: 36.9531
+  longitude: 137.5622
