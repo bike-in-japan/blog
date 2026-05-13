@@ -88,3 +88,6 @@
 - name: Asahi (Toyama)
   latitude: 36.9531
   longitude: 137.5622
+- name: Juetsu
+  latitude: 37.18
+  longitude: 138.2524
