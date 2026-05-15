@@ -91,3 +91,9 @@
 - name: Juetsu
   latitude: 37.18
   longitude: 138.2524
+- name: Osugi Park
+  latitude: 37.49854
+  longitude: 138.75707
+- name: Niigata
+  latitude: 37.918
+  longitude: 139.058
