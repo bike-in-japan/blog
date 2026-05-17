@@ -97,3 +97,6 @@
 - name: Niigata
   latitude: 37.918
   longitude: 139.058
+- name: Tokyo 
+  latitude: 35.69
+  longitude: 139.77
