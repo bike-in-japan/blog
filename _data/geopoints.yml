@@ -100,3 +100,7 @@
 - name: Tokyo 
   latitude: 35.69
   longitude: 139.77
+- name: Otaru 
+  latitude: 43.1918
+  longitude: 141
+  
