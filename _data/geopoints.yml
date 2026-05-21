@@ -103,4 +103,10 @@
 - name: Otaru 
   latitude: 43.1918
   longitude: 141
+- name: Niseko
+  latitude: 43.83
+  longitude: 140.666
+- name: Toyako Onsen 
+  latitude: 42.6469
+  longitude: 140.832657
   
