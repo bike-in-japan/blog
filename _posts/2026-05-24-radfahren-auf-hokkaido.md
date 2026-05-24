@@ -18,6 +18,9 @@ Geblieben ist die Dominanz von Gebirgen. Hier zwar nicht so hoch wie vor allem i
 
 Weniger und kleinere Orte führen auch zu weniger Straßen. "Schön" könnte man denken, aber oft gibt es zu der einen Straße keine Alternative und da fahren dann eben alle. Viele Autos, Laster, Busse. Das ist wenig angenehm zum Radfahren. Meine Versuche, auf Nebenstraßen auszuweichen, führten regelmäßig auf Schotterstrecken. Oft offenbarte sich das erst nach einigen Kilometern, wo dann Asphalt endete und Schotter begann. Hatten die Straßenbauer auf den anderen Inseln noch jede noch so kleine Straße konsequent durchasphaltiert, fehlte ihnen auf Hokkaido wohl der Elan, das Werk zu vollenden. 
 
-![Asphalt Ende](https://github.com/user-attachments/assets/2712cf49-c2fd-4888-b22f-39be045387d3){: width="1200" }
+<figure>
+  <img width="1200" alt="Asphalt Ende" src="https://github.com/user-attachments/assets/2712cf49-c2fd-4888-b22f-39be045387d3" />
+  <figcaption class="text-center pt-2 pb-2">Asphalt Ende</figcaption>
+</figure>
 
 Quartiersuche ist hier auch komplizierter als ich es bisher erlebt habe. Es gibt einige touristische Orte, wo sich schicke und damit teure Hotels aufreihen, und es gibt die Gegenden mit weniger Besuch, aber dort sind Hotels oder Pensionen rar. Zwar habe ich ein Zelt mit und das ist eine schöne Option hier mit so viel Natur, allerdings macht mir das Wetter einen Strich durch die Rechnung: Jetzt, Ende Mai, sind oft Tage mit niedrigen zweistelligen Tageshöchstwerten und einstelligen Werten in der Nacht. Dabei geht nicht selten kräftiger Wind. Dafür bin ich nicht ausgerüstet. Im Gegenteil: Mütze und Handschuhe wurden wieder in Dienst gestellt, die ich seit Mitte April nicht mehr gebraucht hatte.
