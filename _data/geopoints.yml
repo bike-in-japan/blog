@@ -104,12 +104,24 @@
   latitude: 43.1918
   longitude: 141
 - name: Niseko
-  latitude: 43.83
-  longitude: 140.666
+  latitude: 42.8325
+  longitude: 140.6767
 - name: Toyako Onsen 
   latitude: 42.6469
   longitude: 140.832657
 - name: Muroran
   latitude: 42.31932
   longitude: 140.9688
+- name: Noborietsu
+  latitude: 42.455
+  longitude: 141.1941
+- name: Atsuma Beach
+  latitude: 42.60446
+  longitude: 141.83015
+- name: Chitose
+  latitude: 42.828
+  longitude: 141.6519
+- name: Sapporo
+  latitude: 43.067
+  longitude: 141.35
   
