@@ -1,0 +1,125 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+#
+# Sveltia CMS configuration for the "Bike in Japan" Jekyll blog
+# (Jekyll 4 + jekyll-theme-chirpy 7.x).
+#
+# Conventions this file follows:
+#   * Posts are `_posts/YYYY-MM-DD-title.md` (see GEMINI.md and `_config.yml`
+#     `permalink: /posts/:title/`). The `slug` template below enforces the
+#     date prefix, using the entry's `date` field.
+#   * Front matter mirrors the keys Chirpy actually renders
+#     (`title`, `date`, `description`, `image.path`, `image.alt`,
+#     `categories`, `tags`, `published`) — see `_layouts/post.html`.
+#   * `layout: post` lives in a hidden field because the `posts` default in
+#     `_config.yml` only applies to the site build, not to CMS-created files.
+#   * Jekyll's static folder is the repository root, and tag pages/body images
+#     are resolved through `site.baseurl` ("/blog") by the theme, so media is
+#     stored in `assets/img/posts` and referenced as `/assets/img/posts/...`.
+#   * `published: false` is the draft switch used by the `draft` label of the
+#     `create-post-from-issue` workflow, so it is kept as an explicit,
+#     optional front matter key.
+
+backend:
+  name: github
+  repo: bike-in-japan/blog
+  branch: main
+  # Sveltia ships a public OAuth client, so no `base_url`/`auth_endpoint` is
+  # required for GitHub Pages. See
+  # https://sveltiacms.app/en/docs/backends/github
+
+# Jekyll keeps static assets in the repository root (`/`), not in `public/`.
+# Files uploaded here get referenced as `/assets/img/posts/<file>`, which
+# Chirpy prefixes with `site.baseurl` when rendering post bodies.
+media_folder: /assets/img/posts
+public_folder: /assets/img/posts
+
+# Most posts omit optional keys entirely (`description`, `image`, `published`,
+# empty `categories`/`tags`). Sveltia fills missing fields with their defaults
+# in the editor, so this option keeps those empty values out of the saved file
+# and stops it from rewriting existing front matter beyond what was edited.
+output:
+  omit_empty_optional_fields: true
+
+collections:
+  - name: posts
+    label: Posts
+    label_singular: Post
+    description: >-
+      Blog posts in `_posts/`. The filename is generated as
+      `YYYY-MM-DD-slug.md` from the *Date* and *Title* fields.
+    folder: /_posts
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    extension: md
+    format: frontmatter
+    sortable_fields: [date, title]
+    # Same order as the machine-generated front matter in `tools/create-post.py`.
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        hint: Used for the post title and, slugified, for the filename and URL.
+      - label: Date
+        name: date
+        widget: datetime
+        date_format: YYYY-MM-DD
+        time_format: HH:mm
+        picker_utc: false
+        default: "{{now}}"
+        hint: >-
+          The year, month and day parts of the filename come from this value,
+          so set it before saving. Chirpy is configured for Europe/Berlin.
+      - label: Description
+        name: description
+        widget: text
+        required: false
+        hint: Shown under the title, in the home feed and in the SEO meta tags.
+      - label: Body
+        name: body
+        widget: richtext
+      - label: Featured image
+        name: image
+        widget: object
+        required: false
+        fields:
+          - label: Image
+            name: path
+            widget: image
+            choose_url: true
+            required: false
+            hint: >-
+              Uploaded images land in `assets/img/posts`. External URLs (for
+              example GitHub `user-attachments` links) are allowed too.
+          - label: Alt text
+            name: alt
+            widget: string
+            required: false
+            hint: Rendered as the image caption and used as the `alt` attribute.
+      - label: Categories
+        name: categories
+        widget: list
+        required: false
+        label_singular: Category
+        hint: >-
+          Chirpy builds `/categories/<name>/` pages from these. Existing values
+          are Reisen, Kultur, Technik, Sport, Geografie and Wirtschaft.
+      - label: Tags
+        name: tags
+        widget: list
+        required: false
+        label_singular: Tag
+        hint: Lowercase keywords (e.g. bike, travel, society). Builds `/tags/<name>/` pages.
+      - label: Published
+        name: published
+        widget: boolean
+        required: false
+        default: true
+        hint: >-
+          On (default) means the post is live. Turn it off to save a draft:
+          Chirpy writes `published: false`, which hides the post from the built
+          site. Posts without this key are live by default, which is why the
+          default here is `true` rather than `false`.
+      - label: Layout
+        name: layout
+        widget: hidden
+        default: post

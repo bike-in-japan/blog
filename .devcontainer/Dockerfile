@@ -19,9 +19,16 @@ RUN gem install sass-embedded -v 1.62.1
 RUN gem install jekyll-sass-converter -v 3.0.0
 RUN gem install bundler jekyll github-pages
 
-RUN chown -R "vscode:rvm" "/usr/local/rvm/" \
-    && chmod -R g+r+w "/usr/local/rvm/" \
-    && find "/usr/local/rvm/" -type d | xargs -n 1 chmod g+s
+# Gems were installed as root into GEM_HOME=/usr/local/bundle, but the
+# postCreateCommand runs `gem install`/`bundle install` as the non-root
+# `vscode` user, so hand the gem home over to that user.
+# (Replaces the obsolete chown of the removed /usr/local/rvm directory.)
+RUN chown -R vscode:vscode "/usr/local/bundle"
+
+# NOTE: The current devcontainers/ruby base image no longer uses rvm.
+# Ruby lives in /usr/local/rubies (root:ruby, vscode is in the ruby group)
+# and gems install to /usr/local/bundle (world-writable), so no manual
+# chown/chmod of a gem directory is needed anymore.
 
 COPY post-create.sh /usr/local/post-create.sh
 RUN chmod +x /usr/local/post-create.sh

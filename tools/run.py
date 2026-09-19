@@ -7,6 +7,7 @@ import os
 import subprocess
 from pathlib import Path
 
+
 def is_docker() -> bool:
     """Detects if the script is running inside a Docker container."""
     cgroup = Path("/proc/1/cgroup")
